@@ -148,7 +148,7 @@ if(DOXYGEN_FOUND AND NOT TARGET doc)
 endif()
 
 add_subdirectory(src)
-add_subdirectory(tests)
+#add_subdirectory(tests)
 add_subdirectory(deps/cpptoml EXCLUDE_FROM_ALL)
 
 # Warn users that are using a 32-bit system
