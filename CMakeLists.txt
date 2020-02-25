@@ -3,7 +3,7 @@ project(meta)
 
 option(ENABLE_LIBCXX "Use libc++ for the C++ standard library (only for clang)" ON)
 option(ENABLE_PROFILING "Link against gperftools profiler library" OFF)
-option(ENABLE_JEMALLOC "Link against jemalloc if available" ON)
+option(ENABLE_JEMALLOC "Link against jemalloc if available" OFF)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
